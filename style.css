@@ -1,0 +1,92 @@
+*{
+  background: black;
+  color: #00ff88;
+  font-family: 'Courier New', monospace;
+}
+header{
+    text-align: center;
+    border-bottom: 2px solid #00ff88;
+
+}
+header h1{
+    text-shadow: 0 0 10px #00ff88;
+}
+.text-menu{
+    text-align: center;
+}
+.menu-card{
+    border: 2px solid #00ff88;
+    padding: 10px;
+    margin-bottom: 20px;
+    
+
+}
+.menu-card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 0 10px #00ff88;
+}
+#menu{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+#inputs{
+    display:flex;
+    flex-direction: column;
+}
+.input{
+  margin-bottom: 10px;
+  color:#027540;
+  border:2px solid #04af5f;
+  padding: 5px;
+}
+.input:focus{
+  outline: none;
+  border: 2px solid #027540;
+  color: #00ff88;
+}
+.social-icons {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.icon:hover {
+  transform: scale(1.2);
+}
+
+/* Цвета для разных соцсетей */
+.telegram:hover path {
+  fill: #0088cc;
+}
+
+.whatsapp:hover path {
+  fill: #25D366;
+}
+
+.facebook:hover path {
+  fill: #1877F2;
+}
+
+.instagram:hover path {
+  fill: url(#insta-gradient);
+}
+
+.twitter:hover path {
+  fill: #1DA1F2;
+}
+
+.youtube:hover path {
+  fill: #FF0000;
+}
+
+.vk:hover path {
+  fill: #4C75A3;
+}
