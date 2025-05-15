@@ -1,21 +1,24 @@
+:root{
+  --main-color: #00ff88;
+}
 *{
   background: black;
-  color: #00ff88;
+  color: var(--main-color);
   font-family: 'Courier New', monospace;
 }
 header{
     text-align: center;
-    border-bottom: 2px solid #00ff88;
+    border-bottom: 2px solid var(--main-color);
 
 }
 header h1{
-    text-shadow: 0 0 10px #00ff88;
+    text-shadow: 0 0 10px var(--main-color);
 }
 .text-menu{
     text-align: center;
 }
 .menu-card{
-    border: 2px solid #00ff88;
+    border: 2px solid var(--main-color);
     padding: 10px;
     margin-bottom: 20px;
     
@@ -23,7 +26,7 @@ header h1{
 }
 .menu-card:hover{
     transform: translateY(-10px);
-    box-shadow: 0 0 10px #00ff88;
+    box-shadow: 0 0 10px var(--main-color);
 }
 #menu{
     display: grid;
@@ -43,7 +46,7 @@ header h1{
 .input:focus{
   outline: none;
   border: 2px solid #027540;
-  color: #00ff88;
+  color: var(--main-color);
 }
 .social-icons {
   display: flex;
